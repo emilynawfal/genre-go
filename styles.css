@@ -40,7 +40,11 @@ body {
 }
 
 a:hover {
-    color:#3b5f4ba1
+    color:#8cd1aba1
+}
+
+a {
+    color: white;
 }
 
 .banner-block {
@@ -112,6 +116,9 @@ h1 {
     color:#ffffff;
     font-size: 20px;
 }
+
+
+
 
 
 

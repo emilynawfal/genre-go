@@ -1,0 +1,118 @@
+body {
+    margin:0;
+}
+
+.navigation-block {
+    position: fixed;
+    width: 100%;
+    /* position: sticky;
+    top:0; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.365);
+    justify-content: space-between;
+
+}
+
+.navigation-block h1 {
+    color:#FFFFFF
+
+}
+
+
+.navigation-block ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* Align items aligns vertically while justify-content align horizontally*/
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navigation-block ul li {
+    padding-left: 20px;
+    padding-right: 50px;
+    font-size: 1.4em;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color:#3b5f4ba1
+}
+
+.banner-block {
+    background-image: url("./bookphoto2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.banner-block div {
+    margin: 0;
+    border-width:3px;
+    border-style:solid;
+    border-color:#ffffff7e;
+    background-color:#ffffff73;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+body {
+    background-color: rgba(4, 35, 17, 0.624);
+}
+.book-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.book-columns div.box {
+    width: 32.6%;
+    border-width 10px;
+    
+}
+
+.book-columns div img {
+    width: 100%;
+}
+
+h1 {
+    font-family: "Gill Sans", sans-serif;
+}
+
+.book-columns div.inner-box h1 {
+    margin: 0;
+    font-family: "Gill Sans", sans-serif;
+    color:#434a46
+    }
+
+
+
+.book-columns div.inner-box {
+    padding: 2em;
+    background-color: rgba(164, 205, 189, 0.454);
+    text-align: center;
+    border-radius:20px;
+}
+
+.book-columns div.inner-box p {
+    color:#ffffff;
+    font-size: 20px;
+}
+
+
+
+

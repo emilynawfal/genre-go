@@ -48,7 +48,7 @@ a {
 }
 
 .banner-block {
-    background-image: url("./bookphoto2.jpg");
+    background-color: black; 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -85,7 +85,7 @@ body {
 
 .book-columns div.box {
     width: 32.6%;
-    border-width 10px;
+    border-width: 10px;
     
 }
 

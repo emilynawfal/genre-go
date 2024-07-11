@@ -18,6 +18,7 @@ body {
 
 .navigation-block h1 {
     color:#FFFFFF
+     
 
 }
 
@@ -40,14 +41,16 @@ body {
 }
 
 a:hover {
-    color:#8cd1aba1
+    color: gray;
 }
 
 a {
     color: white;
+    font-family: "Gill Sans", sans-serif;
+
 }
 
-.banner-block {
+.button-container {
     background-color: black; 
     background-size: cover;
     background-position: center;
@@ -58,68 +61,25 @@ a {
     height: 100vh;
 }
 
-.banner-block div {
-    margin: 0;
-    border-width:3px;
-    border-style:solid;
-    border-color:#ffffff7e;
-    background-color:#ffffff73;
-    text-align: center;
-    padding: 20px;
-    border-radius: 20px;
-}
-
-body {
-    background-color: rgba(4, 35, 17, 0.624);
-}
-.book-columns {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1em;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.book-columns div.box {
-    width: 32.6%;
-    border-width: 10px;
-    
-}
-
-.book-columns div img {
-    width: 100%;
-}
-
-h1 {
-    font-family: "Gill Sans", sans-serif;
-}
-
-.book-columns div.inner-box h1 {
-    margin: 0;
-    font-family: "Gill Sans", sans-serif;
-    color:#434a46
-    }
-
-
-
-.book-columns div.inner-box {
-    padding: 2em;
-    background-color: rgba(164, 205, 189, 0.454);
-    text-align: center;
-    border-radius:20px;
-}
-
-.book-columns div.inner-box p {
-    color:#ffffff;
-    font-size: 20px;
-}
-
-
-
-
-
+.pill {
+    font-size: 30px;
+    font-family: "Gill sans", sans-serif;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    background: #d7d2d2;
+    cursor: pointer;
+  }
+  
+  .pill:not(.pill--selected):hover {
+    background: #cccccc;
+  }
+  
+  .pill--selected {
+    background: #8fc7bc;
+    color: #ffffff;
+  }
 
 

@@ -1,85 +1,78 @@
 body {
-    margin:0;
+  margin: 0;
 }
 
 .navigation-block {
-    position: fixed;
-    width: 100%;
-    /* position: sticky;
+  position: fixed;
+  width: 100%;
+  /* position: sticky;
     top:0; */
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: rgba(0, 0, 0, 0.365);
-    justify-content: space-between;
-
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(0, 0, 0, 0.365);
+  justify-content: space-between;
 }
 
 .navigation-block h1 {
-    color:#FFFFFF
-     
-
+  color: #ffffff;
 }
 
-
 .navigation-block ul {
-    padding-left: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    /* Align items aligns vertically while justify-content align horizontally*/
-    align-items: center;
-    justify-content: flex-end;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  /* Align items aligns vertically while justify-content align horizontally*/
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .navigation-block ul li {
-    padding-left: 20px;
-    padding-right: 50px;
-    font-size: 1.4em;
-    color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 50px;
+  font-size: 1.4em;
+  color: rgb(255, 255, 255);
 }
 
 a:hover {
-    color: gray;
+  color: rgb(172, 160, 160);
 }
 
 a {
-    color: white;
-    font-family: "Gill Sans", sans-serif;
-
+  color: white;
+  font-family: "Gill Sans", sans-serif;
 }
 
 .button-container {
-    background-color: black; 
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
 }
 
 .pill {
-    font-size: 30px;
-    font-family: "Gill sans", sans-serif;
-    padding: 0.5em 1em;
-    margin: 0.25em;
-    border-radius: 1em;
-    border: none;
-    outline: none;
-    background: #d7d2d2;
-    cursor: pointer;
-  }
-  
-  .pill:not(.pill--selected):hover {
-    background: #cccccc;
-  }
-  
-  .pill--selected {
-    background: #8fc7bc;
-    color: #ffffff;
-  }
+  font-size: 30px;
+  font-family: "Gill sans", sans-serif;
+  padding: 0.5em 1em;
+  margin: 0.25em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  background: #9c9898;
+  cursor: pointer;
+}
 
+.pill:not(.pill--selected):hover {
+  background: #cccccc;
+}
 
+.pill--selected {
+  background: #8fc7bc;
+  color: #ffffff;
+}
